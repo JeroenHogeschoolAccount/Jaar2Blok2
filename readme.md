@@ -64,10 +64,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-<img src="images/afbeelding1.png" width="375px" alt="omschrijving van de pagina">
-
-
-
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
