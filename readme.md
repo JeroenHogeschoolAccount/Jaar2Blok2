@@ -39,7 +39,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
--Niks-
+-Bijna niks ging goed en alles was lastig-
 
 **Screenshot(s):**
 
@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-<img src="images/Afbeelding1" width="375px" alt="omschrijving van de pagina">
+<img src="images/afbeelding1.png" width="375px" alt="omschrijving van de pagina">
 
 
 
