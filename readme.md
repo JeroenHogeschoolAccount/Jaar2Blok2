@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -Test-
+1. -Bron 1-
 2. -bron 2-
 3. -...-
 
@@ -39,6 +39,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+-Niks-
 
 **Screenshot(s):**
 
@@ -59,10 +60,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -na afloop snel uitkomsten vastleggen-
 
 
-
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
+
+<img src="images/Afbeelding1" width="375px" alt="omschrijving van de pagina">
 
 
 
@@ -71,9 +73,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** -Blauw-
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** -Weet ik nog niet-
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** -https://www.pathe.nl of https://www.apple.com/nl/-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
