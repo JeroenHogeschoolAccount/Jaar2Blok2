@@ -28,6 +28,10 @@ header {
     padding: 0px 0px;
 }
 
+.films {
+    margin-bottom: -10em;
+}
+
 button {
     padding: 0.3em 0.9em;
     background-color: #ffbb00;
@@ -55,7 +59,7 @@ ul li img.logo {
 
 
 /*Algemeen*/
-#eerste{
+#eerste {
     color: white;
     font-family: arial;
     font-size: 13px;
@@ -69,26 +73,26 @@ ul li img.logo {
 
 /*Zoeken naar film*/
 
-.categoriefilmknop{
-    color:red;
+.categoriefilmknop {
+    color: red;
     background-color: transparent;
     text-transform: uppercase;
-    color:  #ffbb00;
+    color: #ffbb00;
     font-size: 17px;
     font-weight: bold;
-  
+
     position: relative;
     top: 0.3em
 }
 
-.categorien{
+.categorien {
     display: flex;
     justify-content: center;
     position: relative;
-    top:1.1em;
+    top: 1.1em;
     list-style: none;
     position: relative;
-    left: -1.1em; 
+    left: -1.1em;
 }
 
 
@@ -100,33 +104,57 @@ ul li img.logo {
 }
 
 
+/* Carousel */
+
+.filmkiezen {
+    width: 200px;
+    padding: 20px;
+
+}
+
+li {
+    list-style: none;
+    display: list-item;
+    box-sizing: border-box;
+}
+
+.ditiseentest {
+    display: flex;
+    flex-direction: row;
+    margin-left: -2em;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 407px;
+
+}
+
 
 
 /*All Stars*/
 
 .ondernieuws {
     background-color: #333332;
-   padding-bottom: 3.5em;
+    padding-bottom: 3.5em;
 }
 
-#starsafbeelding{
+#starsafbeelding {
     position: relative;
     width: 8em;
     top: 1.4em;
-    left:0.7em;
+    left: 0.7em;
     margin-bottom: 1em;
 }
 
-#starstitel{
-    color:white;
+#starstitel {
+    color: white;
     font-family: arial;
     text-transform: uppercase;
-    font-size:15px;
+    font-size: 15px;
     margin-left: 0.7em;
     margin-bottom: 1.3em;
 }
 
-.groteknop{
+.groteknop {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
@@ -141,7 +169,7 @@ ul li img.logo {
     position: absolute;
     left: 0.7em;
     height: 2.5em;
-    width: 17em   
+    width: 17em
 }
 
 
@@ -155,28 +183,28 @@ ul li img.logo {
     margin-bottom: -20em;
 }
 
-#imaxafbeelding{
+#imaxafbeelding {
     position: relative;
     width: 30em;
     margin-bottom: 1em;
-        width: 100%; 
+    width: 100%;
     height: 350px
 }
 
-#titelimax{
+#titelimax {
     color: white;
     font-family: arial;
     font-size: 40px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     margin-left: 0.5em;
     position: relative;
-    top:-9.5em;
+    top: -9.5em;
 }
 
-#imaxondertitel{
-    color:white;
+#imaxondertitel {
+    color: white;
     font-family: arial;
-    font-size:24px;
+    font-size: 24px;
     margin-left: 0.7em;
     margin-bottom: 1.3em;
     position: relative;
@@ -184,7 +212,7 @@ ul li img.logo {
     margin-left: 0.8em
 }
 
-#imaxparagraaf{
+#imaxparagraaf {
     color: white;
     font-family: sans-serif;
     font-size: 13px;
@@ -195,7 +223,7 @@ ul li img.logo {
     line-height: 1.4em;
 }
 
-#imaxknop{
+#imaxknop {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
@@ -207,16 +235,16 @@ ul li img.logo {
     border-bottom-right-radius: 6px;
     font-family: sans-serif;
     letter-spacing: -0.05em;
-    position:absolute;    
+    position: absolute;
     left: 1.5em;
     height: 2.5em;
     width: 11em;
-    bottom: -4em
+    bottom: -15em
 }
 
 
-#stoelknop{
-      text-transform: uppercase;
+#stoelknop {
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
     background-color: rgb(255, 196, 38);
@@ -227,9 +255,10 @@ ul li img.logo {
     border-bottom-right-radius: 6px;
     font-family: sans-serif;
     letter-spacing: -0.05em;
-    position:absolute;    
+    position: absolute;
     left: 1.5em;
-    bottom:-62em;
+    bottom: -72em;
+    ;
     width: 11em;
     height: 2.5em;
 }
@@ -239,24 +268,27 @@ ul li img.logo {
 
 /*footer*/
 
-#footercontainer{
+#footercontainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
     margin-left: -2.2em;
     position: relative;
-   background-color: rgb(255, 196, 38);
+    background-color: rgb(255, 196, 38);
+    padding-bottom: 17em;
+    padding-top: 2em;
+    margin-top: -1em;
 }
 
-.icoon{
+.icoon {
     width: 2em;
 }
 
 
 /* Film pagina */
 
-.naamcarousel{
+.naamcarousel {
     font-size: 17px;
     text-transform: uppercase;
     font-family: arial;
@@ -264,7 +296,7 @@ ul li img.logo {
 }
 
 
-.zonderkleur{
+.zonderkleur {
     background-color: transparent;
     color: grey;
     position: relative;
@@ -272,42 +304,131 @@ ul li img.logo {
     bottom: 3em
 }
 
-.verder{
+.verder {
     position: relative;
     left: 19.1em;
     background-color: black;
-    color: #ffbb00; 
-}
-
-.carousel{
-    margin-left: 0.5em;
+    color: #ffbb00;
 }
 
 
 
-.keuze{
+.keuze {
     font-family: arial;
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 17px;
     color: black;
     font-weight: bold;
-        list-style: none;
+    list-style: none;
 
 }
 
-.keuzes{
+.keuzes {
     list-style: none;
-   margin-bottom: 2em;
+    margin-bottom: 2em;
     margin-left: -2em
 }
 
-.deel2{
+.deel2 {
     margin-top: 10em
 }
 
 
 
+
+/* Vierkant met menu */
+
+.vierkantvormgeving {
+    display: none;
+    position: fixed;
+    padding-top: 155px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    transition: 1s;
+    animation: kleurtjes 20s infinite;
+}
+
+.vierkantinhoud {
+    background-color: #ffbb00;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid white;
+    width: 70%;
+    border-radius: 2em;
+    box-shadow: 0px 8px 16px 3px white;
+}
+
+@keyframes kleurtjes {
+    0% {
+        background-color: #ffbb00;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ffbb00;
+    }
+}
+
+.kruisje {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 3em;
+    top: 6em;
+    text-shadow:
+        0 0 0.5em white,
+        0 0 0.9em white,
+        0 0 0.9em white;
+}
+
+.kruisje:hover {
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* popcorn en kip animatie */
+
+
+#popcorn-twee{
+    font-size: 2em;
+    animation: draaien 1s infinite;
+    animation-duration: 4s;
+}
+
+#haan{
+    font-size: 2em;
+}
+
+@keyframes draaien{
+    0{transform: rotate(0deg);}
+    50%{transform: rotate(40deg);}
+}
+
+#kip{
+display: flex;
+    justify-content: center;
+    margin-bottom: -3em
+}
 /*
 
 nav ul{

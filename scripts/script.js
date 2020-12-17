@@ -1,8 +1,20 @@
 // JavaScript Document
 
-var button = document.querySelector("button");
-var element = document.querySelector("div");
 
-button.addEventListener("click", function() {
-    element.classList.toggle("yay");
-});
+var vierkant = document.getElementById("vierkant");
+
+// Button dat het vierkant laat zien
+var button = document.getElementById("menubutton");
+
+// kruisje dat de vierkant laat verdwijnen
+var kruisje = document.getElementsByClassName("kruisje")[0];
+
+// wanneer op de button wordt gedrukt komt de vierkant tevoorschijn
+button.onclick = function() {
+  vierkant.style.display = "block";
+}
+
+// wanneer op het kruisje wordt gedrukt verdwijnt de vierkant
+kruisje.onclick = function() {
+  vierkant.style.display = "none";
+}
