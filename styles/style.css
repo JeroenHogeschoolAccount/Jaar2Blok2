@@ -28,6 +28,7 @@ header {
     padding: 0px 0px;
 }
 
+
 .films {
     margin-bottom: -10em;
 }
@@ -42,10 +43,6 @@ button {
     text-decoration: none;
     font-size: 12px;
     font-family: arial;
-}
-
-.lijn {
-    text-decoration: underline;
 }
 
 ul li img.logo {
@@ -288,11 +285,17 @@ li {
 
 /* Film pagina */
 
-.naamcarousel {
+.carousel2{
+    margin-bottom: -2em;
+}
+
+
+.naamcarousel2 {
     font-size: 17px;
     text-transform: uppercase;
     font-family: arial;
     padding-top: 1em;
+    margin-left: 0.5em;
 }
 
 
@@ -331,11 +334,49 @@ li {
 }
 
 .deel2 {
-    margin-top: 10em
+    margin-top: 6em
 }
 
+.filmkiezen2 {
+    width: 120px;
+    padding: 5px;
+    transition: 1s;
 
+}
 
+.ditiseentest2{
+      display: flex;
+    flex-direction: row;
+    margin-left: -2em;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 407px;
+    margin-top: -1.5em
+}
+
+.naamvandefilm{
+    color: black;
+    font-family: avenir;
+    position: relative;
+    top: -1.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.datumvandefilm{
+        color: grey;
+    font-family: avenir;
+    position: relative;
+    top: -2.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+}
 
 /* Vierkant met menu */
 
@@ -396,6 +437,7 @@ li {
     cursor: pointer;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -408,12 +450,25 @@ a {
 
 /* popcorn en kip animatie */
 
+/*
+div:nth-of-type(odd){
+        font-size: 2em;
+    animation: draaien 1s infinite;
+    animation-duration: 4s;
+}
+*/
 
 #popcorn-twee{
     font-size: 2em;
     animation: draaien 1s infinite;
     animation-duration: 4s;
 }
+
+/*
+div:nth-of-type(even){
+    font-size:2em
+}
+*/
 
 #haan{
     font-size: 2em;
