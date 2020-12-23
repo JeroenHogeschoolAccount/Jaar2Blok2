@@ -32,6 +32,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+-Test-
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| student 1      | student 2          | student 3    | student 4        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| Website niveau blauw?| dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
+
 
 
 ## Voortgang 1 (week 3)
@@ -49,11 +73,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Jeroen      | Kai         | Nienke    | Lisa        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Hoe is de code tot nu toe?  |Verschil tussen mijn pagina en de echte             | Semantiek   | Beste aanpak navigatie    |
+| Website niveau blauw?| Semantiek | Beste aanpak voor straks | Bewerking van een ul en hoe iconen in een rij krijgen?
+|             | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
@@ -69,9 +93,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** -Blauw-
 
-**Je focus:** -Weet ik nog niet-
+**Je focus:** -Surface-
 
-**Je opdracht:** -https://www.pathe.nl of https://www.apple.com/nl/-
+**Je opdracht:** -https://www.pathe.nl 
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
