@@ -7,7 +7,7 @@
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Test</title>
+    <title>HOME</title>
 
     <link href="styles/style.css" rel="stylesheet">
 </head>
@@ -17,6 +17,7 @@
 
 <body>
 
+    <!--Navigatie-->
     <!--bron logo=https://www.pathe.nl-->
     <header>
         <nav>
@@ -25,8 +26,7 @@
                 <li><a href="films.html"><button>Films</button></a> </li>
                 <li><a href="#"><button>Tijden</button></a> </li>
                 <li><a href="#"><button>Bioscopen</button></a> </li>
-                <li><a href="#"><button id=menubutton>Menu</button></a>
-                </li>
+                <li><button id=menubutton>Menu</button></li>
             </ul>
         </nav>
     </header>
@@ -35,8 +35,9 @@
 
     <main>
 
+        <!--Knoppen welke je kan gebruiken op te bepalen welke films getoond moeten worden in de carousel.-->
 
-        <section class=films>
+        <div class=films>
             <ul class=categorien>
                 <li><button class=categoriefilmknop>Nu</button></li>
                 <li><button class=categoriefilmknop>Binnenkort</button></li>
@@ -44,120 +45,127 @@
                 <li><button class=categoriefilmknop>Jaar</button></li>
             </ul>
 
-           
 
-           <!-- Bron afbeeldingen van de films https://www.pathe.nl-->
-            <section class=carousel>
+            <!--De carousel met films-->
+            <!-- Bron afbeeldingen van de films https://www.pathe.nl-->
 
-                <nav>
-                    <ul class=ditiseentest>
+            <!--
+            <section class=carousel> -->
 
-                        <li class=morgen>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding7.png" alt="de slag om de schelde">
-                            </a>
-                        </li>
+            <nav class=carousel>
+                <ul class=ditiseentest>
 
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding8.png" alt="monster hunter">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding9.png" alt="cats & dogs slaan de pootjes ineen">
-                            </a>
-
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding10.png" alt="bon bini judeska in da house">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding11.png" alt="test">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding12.png" alt="familie vos">
-                            </a>
-
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding13.png" alt="honest thief">
-                            </a>
-
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <img class=filmkiezen src="images/afbeelding14.png" alt="bings kerstfeest">
-                            </a>
-
-                        </li>
-
-                    </ul>
-
-                </nav>
-
-            </section>
-
-            <section id=kip>
-                <div id=popcorn-twee>&#127871;</div>
-                <div id=haan>&#128019; </div>
-                <div id=popcorn-twee>&#127871;</div>
-                <div id=haan>&#128019; </div>
-                <div id=popcorn-twee>&#127871;</div>
-                <div id=haan>&#128019; </div>
-                <div id=popcorn-twee>&#127871;</div>
-                <div id=haan>&#128019;</div>
-                <div id=popcorn-twee>&#127871;</div>
-                <div id=haan>&#128019; </div>
-            </section>
-
-        </section>
+                    <li class=morgen>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding7.png" alt="de slag om de schelde">
+                        </a>
+                    </li>
 
 
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding8.png" alt="monster hunter">
+                        </a>
+                    </li>
 
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding9.png" alt="cats & dogs slaan de pootjes ineen">
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding10.png" alt="bon bini judeska in da house">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding11.png" alt="test">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding12.png" alt="familie vos">
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding13.png" alt="honest thief">
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img class=filmkiezen src="images/afbeelding14.png" alt="bings kerstfeest">
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <!--
+            </section> -->
+
+            <!--Animatie van kip en popcorn-->
+            <div id=kip>
+                <div class=popcorn-twee>&#127871;</div>
+                <div class=haan>&#128019; </div>
+                <div class=popcorn-twee>&#127871;</div>
+                <div class=haan>&#128019; </div>
+                <div class=popcorn-twee>&#127871;</div>
+                <div class=haan>&#128019; </div>
+                <div class=popcorn-twee>&#127871;</div>
+                <div class=haan>&#128019;</div>
+                <div class=popcorn-twee>&#127871;</div>
+                <div class=haan>&#128019; </div>
+            </div>
+
+        </div>
+
+
+        <!--Informatie over IMAX-->
         <!--bron afbeelding=https://www.pathe.nl/imax-->
-        <section id=imaxsection>
-            <img id=imaxafbeelding src="images/afbeelding2.png" alt="logo van pathe all stars" />
-            <h1 id=titelimax>imax</h1>
-            <h2 id=imaxondertitel>De meeslepende filmbeleving </h2>
-            <p id=imaxparagraaf>Zie je een explosie of lijkt het alsof je de hitte kunt voelen? Zie je je helden op het witte doek of voelt het alsof je er zelf bij bent?IMAX maakt het verschil tussen een film zien en een film ervaren.</p>
-            <a href="#"><button id=imaxknop> Ontdek imax</button></a>
+        <section class=imaxsection>
+            <img class=imaxafbeelding src="images/afbeelding2.png" alt="logo van pathe all stars" />
+            <h1 class=titelimax>imax</h1>
+            <h2 class=imaxondertitel>De meeslepende filmbeleving </h2>
+            <p class=imaxparagraaf>Zie je een explosie of lijkt het alsof je de hitte kunt voelen? Zie je je helden op het witte doek of voelt het alsof je er zelf bij bent?IMAX maakt het verschil tussen een film zien en een film ervaren.</p>
+            <button id=imaxknop> Ontdek imax</button>
         </section>
 
+        <!--Informatie over ALL STARS-->
         <!--bron afbeelding=https://www.pathe.nl/allstars-->
         <section class=ondernieuws>
             <img id=starsafbeelding src="images/afbeelding1.png" alt="logo van pathe all stars" />
             <h2 id=starstitel>sparen voor extra's </h2>
             <p id=eerste>Als je regelmatig naar Pathé gaat, dan verdien je toch iets extra's? dat vinden wij ook! Daarom is er nu Pathé All Stars, het nieuwe beloningsprogramma van Pathé waarmee je heel gemakkelijk spaart voor mooie kortingen, gratis producten en leuke extra's bij elke bioscoopbezoek.</p>
-            <a href="#"><button class=groteknop>Maak nu een account aan</button></a>
+            <button id=groteknop>Maak nu een account aan</button>
         </section>
 
 
+        <!--Informatie over 4DX-->
         <!--bron afbeelding=https://www.pathe.nl/imax-->
-        <section id=imaxsection>
-            <img id=imaxafbeelding src="images/afbeelding3.png" alt="logo van pathe all stars" />
-            <h1 id=titelimax>4DX</h1>
-            <h2 id=imaxondertitel>De vierdimensionale bioscoopervaring</h2>
-            <p id=imaxparagraaf>Films zijn niet langer beperkt tot het scherm. 4SX trekt je de film in alsof je er zelf deel van uitmaakt. Met 20 verschillende soorten effecten creëert 4DX een compleet andere filmervaring</p>
-            <a href="#"><button id=stoelknop> Ontdek 4DX</button></a>
+        <section class=imaxsection>
+            <img class=imaxafbeelding src="images/afbeelding3.png" alt="logo van pathe all stars" />
+            <h1 class=titelimax>4DX</h1>
+            <h2 class=imaxondertitel>De vierdimensionale bioscoopervaring</h2>
+            <p class=imaxparagraaf>Films zijn niet langer beperkt tot het scherm. 4SX trekt je de film in alsof je er zelf deel van uitmaakt. Met 20 verschillende soorten effecten creëert 4DX een compleet andere filmervaring</p>
+            <button id=stoelknop> Ontdek 4DX</button>
         </section>
 
 
 
-        <section>
+        <!-- Pop-up met het menu -->
+        <div>
 
             <!-- De vierkant -->
             <div id="vierkant" class="vierkantvormgeving">
@@ -263,25 +271,30 @@
                 </div>
 
             </div>
-        </section>
+        </div>
 
 
-   
+
     </main>
-    
-    
-     <!-- De footer met sociale media -->
+
+
+    <!-- De footer met sociale media -->
     <footer>
 
         <ul id=footercontainer>
-
-            <img class="icoon" src="images/afbeelding4.png" alt="leeg" />
-            <img class="icoon" src="images/afbeelding5.png" alt="leeg" />
-            <img class="icoon" src="images/afbeelding6.png" alt="leeg" />
+            <li>
+                <img class="icoon" src="images/afbeelding4.png" alt="leeg" /></li>
+            <li>
+                <img class="icoon" src="images/afbeelding5.png" alt="leeg" />
+            </li>
+            <li>
+                <img class="icoon" src="images/afbeelding6.png" alt="leeg" />
+            </li>
 
         </ul>
 
     </footer>
 
+    <!-- Javascript verbonden -->
     <script src="scripts/script.js"></script>
 </body></html>

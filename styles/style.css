@@ -43,7 +43,24 @@ button {
     text-decoration: none;
     font-size: 12px;
     font-family: arial;
+    outline: none;
+    appearance: none;
+    transition: 0.5s ease-in;
 }
+
+button:hover {
+    color: #ff4545;
+}
+
+button:active {
+    color: darkred;
+}
+
+button:focus {
+    background-color: #e3e3e3;
+}
+
+
 
 ul li img.logo {
     max-height: 30px;
@@ -131,7 +148,8 @@ li {
 
 .ondernieuws {
     background-color: #333332;
-    padding-bottom: 3.5em;
+    padding-bottom: 2em;
+    padding-top: -em;
 }
 
 #starsafbeelding {
@@ -151,7 +169,7 @@ li {
     margin-bottom: 1.3em;
 }
 
-.groteknop {
+#groteknop {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
@@ -163,10 +181,11 @@ li {
     border-bottom-right-radius: 6px;
     font-family: sans-serif;
     letter-spacing: -0.05em;
-    position: absolute;
+    position: relative;
+    margin-bottom: -1em;
     left: 0.7em;
     height: 2.5em;
-    width: 17em
+    width: 17em;
 }
 
 
@@ -174,13 +193,13 @@ li {
 
 /*imax*/
 
-#imaxsection {
+.imaxsection {
     background-color: #333332;
-    padding-bottom: 3.5em;
+    padding-bottom: 0.4em;
     margin-bottom: -20em;
 }
 
-#imaxafbeelding {
+.imaxafbeelding {
     position: relative;
     width: 30em;
     margin-bottom: 1em;
@@ -188,7 +207,7 @@ li {
     height: 350px
 }
 
-#titelimax {
+.titelimax {
     color: white;
     font-family: arial;
     font-size: 40px;
@@ -198,7 +217,7 @@ li {
     top: -9.5em;
 }
 
-#imaxondertitel {
+.imaxondertitel {
     color: white;
     font-family: arial;
     font-size: 24px;
@@ -209,7 +228,7 @@ li {
     margin-left: 0.8em
 }
 
-#imaxparagraaf {
+.imaxparagraaf {
     color: white;
     font-family: sans-serif;
     font-size: 13px;
@@ -232,11 +251,11 @@ li {
     border-bottom-right-radius: 6px;
     font-family: sans-serif;
     letter-spacing: -0.05em;
-    position: absolute;
+    position: relative;
     left: 1.5em;
     height: 2.5em;
     width: 11em;
-    bottom: -15em
+    bottom: 26em
 }
 
 
@@ -252,10 +271,10 @@ li {
     border-bottom-right-radius: 6px;
     font-family: sans-serif;
     letter-spacing: -0.05em;
-    position: absolute;
-    left: 1.5em;
-    bottom: -72em;
+    position: relative;
     ;
+    left: 1.5em;
+    bottom: 27em;
     width: 11em;
     height: 2.5em;
 }
@@ -285,7 +304,7 @@ li {
 
 /* Film pagina */
 
-.carousel2{
+.carousel2 {
     margin-bottom: -2em;
 }
 
@@ -344,8 +363,8 @@ li {
 
 }
 
-.ditiseentest2{
-      display: flex;
+.ditiseentest2 {
+    display: flex;
     flex-direction: row;
     margin-left: -2em;
     overflow-x: scroll;
@@ -354,7 +373,7 @@ li {
     margin-top: -1.5em
 }
 
-.naamvandefilm{
+.naamvandefilm {
     color: black;
     font-family: avenir;
     position: relative;
@@ -366,8 +385,8 @@ li {
     font-weight: lighter;
 }
 
-.datumvandefilm{
-        color: grey;
+.datumvandefilm {
+    color: grey;
     font-family: avenir;
     position: relative;
     top: -2.5em;
@@ -442,8 +461,22 @@ a {
     color: white;
     text-decoration: none;
     font-family: sans-serif;
+    outline: none;
+    transition: 0.5s ease-in;
 }
 
+a:focus {
+    background: #ffbb00;
+}
+
+a:hover {
+    background-color: #ff4545;
+    ;
+}
+
+a:active {
+    color: darkred;
+}
 
 
 
@@ -458,7 +491,7 @@ div:nth-of-type(odd){
 }
 */
 
-#popcorn-twee{
+.popcorn-twee {
     font-size: 2em;
     animation: draaien 1s infinite;
     animation-duration: 4s;
@@ -470,20 +503,29 @@ div:nth-of-type(even){
 }
 */
 
-#haan{
+.haan {
     font-size: 2em;
 }
 
-@keyframes draaien{
-    0{transform: rotate(0deg);}
-    50%{transform: rotate(40deg);}
+@keyframes draaien {
+    0 {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(40deg);
+    }
 }
 
-#kip{
-display: flex;
+
+#kip {
+    display: flex;
     justify-content: center;
     margin-bottom: -3em
 }
+
+
+
 /*
 
 nav ul{

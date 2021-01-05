@@ -7,7 +7,7 @@
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Test</title>
+    <title>FILMS</title>
 
     <link href="styles/style.css" rel="stylesheet">
 </head>
@@ -17,6 +17,7 @@
 
 <body>
 
+    <!--Navigatie-->
     <!--bron logo=https://www.pathe.nl-->
     <header>
         <nav>
@@ -25,21 +26,22 @@
                 <li><a href="#"><button>Films</button></a> </li>
                 <li><a href="#"><button>Tijden</button></a> </li>
                 <li><a href="#"><button>Bioscopen</button></a> </li>
-                <li><a href="#"><button id=hamburger>Menu</button></a> </li>
+                <li><button id=hamburger>Menu</button> </li>
             </ul>
         </nav>
     </header>
 
 
-   <!--Bronnen van de afbeeldingen van de films: https://www.pathe.nl/films-->
+    <!--Bronnen van de afbeeldingen van de films: https://www.pathe.nl/films-->
+    <!--Onderdelen actueel, verwacht events en pathé thuis-->
     <main>
-       
+
         <section class=carousel2>
 
             <h2 class=naamcarousel2>Actueel</h2>
             <button class=zonderkleur>Zie alle</button>
 
-            <section class=carousel>
+            <div class=carousel>
 
                 <ul class=ditiseentest2>
                     <li class=morgen>
@@ -58,9 +60,9 @@
                         </a>
                     </li>
                 </ul>
-                
-            </section>
-            
+
+            </div>
+
         </section>
 
 
@@ -70,7 +72,7 @@
             <h2 class=naamcarousel2>Verwacht</h2>
             <button class=zonderkleur>Zie alle</button>
 
-            <section class=carousel>
+            <div class=carousel>
 
                 <ul class=ditiseentest2>
                     <li class=morgen>
@@ -143,7 +145,7 @@
                     </li>
                 </ul>
 
-            </section>
+            </div>
 
         </section>
 
@@ -151,7 +153,7 @@
         <section class=carousel2>
             <h2 class=naamcarousel2>Events</h2>
             <button class=zonderkleur>Zie alle</button>
-            <section class=carousel>
+            <div class=carousel>
 
                 <ul class=ditiseentest2>
 
@@ -198,7 +200,7 @@
                     </li>
                 </ul>
 
-            </section>
+            </div>
 
         </section>
 
@@ -207,7 +209,7 @@
         <section class=carousel2>
             <h2 class=naamcarousel2>Pathé Thuis</h2>
             <button class=zonderkleur>Zie alle</button>
-            <section class=carousel>
+            <div class=carousel>
 
                 <ul class=ditiseentest2>
 
@@ -234,13 +236,13 @@
                     </li>
                 </ul>
 
-            </section>
+            </div>
             <button class=verder>Verder</button>
         </section>
 
 
 
-
+        <!--Link naar imax, vip, laatste kans, voorpremiėres en sneak preview-->
 
         <ul class=deel2>
             <li class=keuzes><a class=keuze href="#">imax</a> </li>
@@ -254,17 +256,24 @@
 
     </main>
 
-   
+
     <!-- De footer met sociale media -->
     <footer>
 
         <ul id=footercontainer>
 
+           <li>
             <img class="icoon" src="images/afbeelding4.png" alt="leeg" />
+            </li>
+            <li>
             <img class="icoon" src="images/afbeelding5.png" alt="leeg" />
+            </li>
+            <li>
             <img class="icoon" src="images/afbeelding6.png" alt="leeg" />
+            </li>
         </ul>
     </footer>
 
+    <!-- Javascript verbonden -->
     <script src="scripts/script.js"></script>
 </body></html>

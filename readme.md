@@ -1,14 +1,15 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Jeroen-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -Bron 1-
-2. -bron 2-
-3. -...-
+1. -Bron van logo website: https://www.pathe.nl-
+2. -Bron van afbeeldingen homepagina: https://www.pathe.nl -
+3. -Bron van afbeeldingen pagina "Films": https://www.pathe.nl/films-
+4. -Bron van hoe je een pop-up scherm kan maken: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal-
 
 
 
@@ -24,18 +25,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
-
-
-## Voortgang 2 (week 5)
-
--same as voortgang 1-
-
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
--Test-
+- Eindelijk gelukt om een carousel te maken, wel zonder javascript. Javascript heb ik verwerkt in het pop-up scherm. Met het pop-up scherm was ik lang mee bezig, er zaten namenlijk wat fouten in waardoor het pop-up scherm niet meer te zien was. Het was moeilijk om deze fouten te vinden,  maar is uiteindelijk wel gelukt. Verder heb ik animaties toegevoegd. De tweede pagina wil ik verder uitwerken nadat ik feedback over mijn carousel op de homepagina heb ontvangen.  -
 
 **Screenshot(s):**
 
@@ -45,15 +37,43 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Jeroen    | Kai          | Lisa   | Nienke        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| Website niveau blauw?| dit als er tijd is | nog een punt | dit wil ik zeker |
+| Is mijn carousel zonder javascript voldoende?  |            |  |   |
+| Hoe is de code tot nu toe?  |  |  |  | 
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Ik mag geen class of id gebruiken, alleen als het echt noodzakelijk is. Carousel was prima, omdat ik javascript ergens anders in heb verwerkt. Code is prima, los van het gebruik van class en id. Nu moet ik verder met het uitwerken van de tweede pagina. Ook moet ik de stof van toegankelijkheid verwerken en het beoordelingsformulier doornemen om te kijken of alles erin zit. -
+
+
+
+
+
+## Voortgang 2 (week 5)
+
+### Stand van zaken
+
+-Vond het enorm lastig om een begin te maken met de carousel. Uiteraard eerst op internet gezocht naar voorbeelden, maar dit zag er heel ingewikkeld uit. Te moeilijk voor mijn niveau op dit moment. Tijdens het voortgangsgesprek ga ik daar naar informeren. Verder vond ik het responsive maken van mijn website moeilijker dan verwacht. Daarom heb ik besloten om eerst enkel te richten op de surface. Het was eerst de bedoeling om beide te doen. Maar het ging/gaat voor mij dus nog wat te snel om de stof van het responsive maken van de website zonder problemen toe te passen. -
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Jeroen    | Kai          | Lisa   | Nienke        |
+| ---            | ---                | ---          | ---              |
+| Hoe is de code tot nu toe?  | Hoeveel wordt er verwacht op de surface?            | Hoe animatie en javascript erin verwerken?  | Advies over CSS en Javascript  |
+| Er zit teveel ruimte tussen de footer en de main. Hoe los ik dit op? | Javascript | Hoe navigatie werkende krijgen? | dit wil ik zeker | Hoe maak ik een begin met een carousel?
+| ...            | ...                | ...          | ...              |
+
+### Verslag van meeting
+
+-Ik mag geen class of id gebruiken, alleen als het echt noodzakelijk is. In een section moet altijd een h1, h2 etc. aanwezig zijn.  Dit was niet altijd het geval. Wanneer er geen h1 of h2 aanwezig is, hoef/mag je geen section gebruiken. Uitleg gekregen over mijn vraag van de footer. Verder een voorbeeld gezien bij Kai van hoe je een carousel kan maken. -
 
 
 
@@ -62,8 +82,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
--Test-
+-Begin maken aan de webiste ging wat moeizaam, omdat het al een tijdje geleden was dat ik een website had gemaakt met code. Nieuwe kennis van positioneren van onderdelen toegepast, dit ging wel goed. Had wel problemen met afbeeldingen op de achtergrond, deze namen meer ruimte in dan de breedte van de iPhone SE2. Ik wist niet hoe ik dit kon oplossen. Hier ga ik tijdens het gesprek naar informeren.   -
 
 **Screenshot(s):**
 
@@ -81,7 +100,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Als je class of id gebruikt is het gebruikelijk dat in het Engels te doen i.p.v. Nederlands. Uitleg over background-image in CSS gehad, zodat ik kan oplossen dat de afbeelding niet breder is dan het formaat van het scherm. Verder is mijn gekozen website te doen voor niveau blauw, dus niet nodig om een andere website te kiezen. Ook moet ik beginnen aan de tweede pagina. De HTML code tot nu toe is prima.-
 
 
 ## Breakdownschets (week 1)
@@ -99,7 +118,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/schets.png" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
