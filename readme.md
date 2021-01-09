@@ -27,7 +27,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-- Eindelijk gelukt om een carousel te maken, wel zonder javascript. Javascript heb ik verwerkt in het pop-up scherm. Met het pop-up scherm was ik lang mee bezig, er zaten namenlijk wat fouten in waardoor het pop-up scherm niet meer te zien was. Het was moeilijk om deze fouten te vinden,  maar is uiteindelijk wel gelukt. Verder heb ik animaties toegevoegd. De tweede pagina wil ik verder uitwerken nadat ik feedback over mijn carousel op de homepagina heb ontvangen.  -
+- Eindelijk gelukt om een carousel te maken, wel zonder JavaScript. JavaScript heb ik verwerkt in het pop-up scherm. Met het pop-up scherm was ik lang bezig, er zaten namelijk wat fouten in waardoor het pop-up scherm niet meer te zien was. Het was moeilijk om deze fouten te vinden, maar het is uiteindelijk wel gelukt. Verder heb ik animaties toegevoegd. De tweede pagina wil ik verder uitwerken nadat ik feedback over mijn carousel op de homepagina heb ontvangen.  -
 
 **Screenshot(s):**
 
@@ -39,13 +39,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Jeroen    | Kai          | Lisa   | Nienke        |
 | ---            | ---                | ---          | ---              |
-| Is mijn carousel zonder javascript voldoende?  |            |  |   |
+| Is mijn carousel zonder JavaScript voldoende?  |            |  |   |
 | Hoe is de code tot nu toe?  |  |  |  | 
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
--Ik mag geen class of id gebruiken, alleen als het echt noodzakelijk is. Carousel was prima, omdat ik javascript ergens anders in heb verwerkt. Code is prima, los van het gebruik van class en id. Nu moet ik verder met het uitwerken van de tweede pagina. Ook moet ik de stof van toegankelijkheid verwerken en het beoordelingsformulier doornemen om te kijken of alles erin zit. -
+-Ik mag geen class of id gebruiken, alleen als het echt noodzakelijk is. Carousel was prima, omdat ik JavaScript ergens anders in heb verwerkt. Code is prima, los van het gebruik van class en id. Nu moet ik verder met het uitwerken van de tweede pagina. Ook moet ik de stof van 'toegankelijkheid' verwerken en het beoordelingsformulier doornemen om te kijken of alles erin zit. -
 
 
 
@@ -55,7 +55,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--Vond het enorm lastig om een begin te maken met de carousel. Uiteraard eerst op internet gezocht naar voorbeelden, maar dit zag er heel ingewikkeld uit. Te moeilijk voor mijn niveau op dit moment. Tijdens het voortgangsgesprek ga ik daar naar informeren. Verder vond ik het responsive maken van mijn website moeilijker dan verwacht. Daarom heb ik besloten om eerst enkel te richten op de surface. Het was eerst de bedoeling om beide te doen. Maar het ging/gaat voor mij dus nog wat te snel om de stof van het responsive maken van de website zonder problemen toe te passen. -
+-Vond het enorm lastig om een begin te maken met de carousel. Uiteraard eerst op internet gezocht naar voorbeelden, maar dit zag er heel ingewikkeld uit. Te moeilijk voor mijn niveau op dit moment. Tijdens het voortgangsgesprek ga ik daarnaar informeren. Verder vond ik het responsive maken van mijn website moeilijker dan verwacht. Daarom heb ik besloten om me eerst enkel te richten op de surface. Het was eerst de bedoeling om beide te doen. Maar het ging/gaat voor mij dus nog wat te snel om de stof van het responsive maken van de website zonder problemen toe te passen. -
 
 **Screenshot(s):**
 
@@ -67,8 +67,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Jeroen    | Kai          | Lisa   | Nienke        |
 | ---            | ---                | ---          | ---              |
-| Hoe is de code tot nu toe?  | Hoeveel wordt er verwacht op de surface?            | Hoe animatie en javascript erin verwerken?  | Advies over CSS en Javascript  |
-| Er zit teveel ruimte tussen de footer en de main. Hoe los ik dit op? | Javascript | Hoe navigatie werkende krijgen? | dit wil ik zeker | Hoe maak ik een begin met een carousel?
+| Hoe is de code tot nu toe?  | Hoeveel wordt er verwacht op de surface?            | Hoe animatie en JavaScript erin verwerken?  | Advies over CSS en JavaScript  |
+| Er zit teveel ruimte tussen de footer en de main. Hoe los ik dit op? | JavaScript | Hoe navigatie werkende krijgen? | dit wil ik zeker | Hoe maak ik een begin met een carousel?
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
@@ -82,7 +82,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--Begin maken aan de webiste ging wat moeizaam, omdat het al een tijdje geleden was dat ik een website had gemaakt met code. Nieuwe kennis van positioneren van onderdelen toegepast, dit ging wel goed. Had wel problemen met afbeeldingen op de achtergrond, deze namen meer ruimte in dan de breedte van de iPhone SE2. Ik wist niet hoe ik dit kon oplossen. Hier ga ik tijdens het gesprek naar informeren.   -
+-Begin maken aan de website ging wat moeizaam, omdat het al een tijdje geleden was dat ik een website had gemaakt met code. Nieuwe kennis van positioneren van onderdelen toegepast, dit ging wel goed. Had wel problemen met afbeeldingen op de achtergrond, deze namen meer ruimte in dan de breedte van de iPhone SE2. Ik wist niet hoe ik dit kon oplossen. Hier ga ik tijdens het gesprek naar informeren.   -
 
 **Screenshot(s):**
 
@@ -107,6 +107,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
+<img src="images/schets.png" width="375px" alt="omschrijving van de pagina">
+
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
@@ -118,8 +120,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
+<img src="images/afbeelding28.png" width="375px" alt="omschrijving van de pagina">
+
 <img src="images/schets.png" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
+
+<img src="images/afbeelding29.png" width="375px" alt="omschrijving van de pagina">
 
 <img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
