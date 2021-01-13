@@ -5,11 +5,12 @@
     box-sizing: border-box;
 }
 
-
+/*Algemeen*/
 
 body {
     margin: 0
 }
+
 
 header {
     display: flex;
@@ -19,9 +20,11 @@ header {
     margin-bottom: -1.3em;
 }
 
+
 .nav_links {
     list-style: none;
 }
+
 
 .nav_links li {
     display: inline-block;
@@ -32,6 +35,7 @@ header {
 .films {
     margin-bottom: -10em;
 }
+
 
 button {
     padding: 0.3em 0.9em;
@@ -48,18 +52,20 @@ button {
     transition: 0.5s ease-in;
 }
 
+
 button:hover {
     color: #ff4545;
 }
+
 
 button:active {
     color: darkred;
 }
 
+
 button:focus {
     background-color: #e3e3e3;
 }
-
 
 
 ul li img.logo {
@@ -71,8 +77,6 @@ ul li img.logo {
 }
 
 
-
-/*Algemeen*/
 #eerste {
     color: white;
     font-family: arial;
@@ -84,9 +88,21 @@ ul li img.logo {
 
 
 
-
 /*Zoeken naar film*/
 
+main div ul li button:nth-of-type(1){
+      color: red;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #ffbb00;
+    font-size: 17px;
+    font-weight: bold;
+
+    position: relative;
+    top: 0.3em
+}
+
+/*
 .categoriefilmknop {
     color: red;
     background-color: transparent;
@@ -98,6 +114,8 @@ ul li img.logo {
     position: relative;
     top: 0.3em
 }
+*/
+
 
 .categorien {
     display: flex;
@@ -120,11 +138,20 @@ ul li img.logo {
 
 /* Carousel */
 
+main div nav ul li a img:nth-of-type(1){
+        width: 200px;
+    padding: 20px;
+}
+
+
+/*
 .filmkiezen {
     width: 200px;
     padding: 20px;
 
 }
+*/
+
 
 li {
     list-style: none;
@@ -132,6 +159,18 @@ li {
     box-sizing: border-box;
 }
 
+
+main div nav ul:nth-of-type(1) {
+        display: flex;
+    flex-direction: row;
+    margin-left: -2em;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 407px;
+}
+
+
+/*
 .ditiseentest {
     display: flex;
     flex-direction: row;
@@ -141,7 +180,7 @@ li {
     width: 407px;
 
 }
-
+*/
 
 
 /*All Stars*/
@@ -152,6 +191,7 @@ li {
     padding-top: -em;
 }
 
+
 #starsafbeelding {
     position: relative;
     width: 8em;
@@ -159,6 +199,7 @@ li {
     left: 0.7em;
     margin-bottom: 1em;
 }
+
 
 #starstitel {
     color: white;
@@ -168,6 +209,7 @@ li {
     margin-left: 0.7em;
     margin-bottom: 1.3em;
 }
+
 
 #groteknop {
     text-transform: uppercase;
@@ -190,7 +232,6 @@ li {
 
 
 
-
 /*imax*/
 
 .imaxsection {
@@ -198,6 +239,7 @@ li {
     padding-bottom: 0.4em;
     margin-bottom: -20em;
 }
+
 
 .imaxafbeelding {
     position: relative;
@@ -207,6 +249,18 @@ li {
     height: 350px
 }
 
+
+main section h1:nth-of-type(1){
+        color: white;
+    font-family: arial;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    position: relative;
+    top: -9.5em;
+}
+
+/*
 .titelimax {
     color: white;
     font-family: arial;
@@ -216,6 +270,8 @@ li {
     position: relative;
     top: -9.5em;
 }
+*/
+
 
 .imaxondertitel {
     color: white;
@@ -228,6 +284,7 @@ li {
     margin-left: 0.8em
 }
 
+
 .imaxparagraaf {
     color: white;
     font-family: sans-serif;
@@ -238,6 +295,7 @@ li {
     max-width: 26em;
     line-height: 1.4em;
 }
+
 
 #imaxknop {
     text-transform: uppercase;
@@ -284,6 +342,20 @@ li {
 
 /*footer*/
 
+footer ul{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: -2.2em;
+    position: relative;
+    background-color: rgb(255, 196, 38);
+    padding-bottom: 17em;
+    padding-top: 2em;
+    margin-top: -1em;
+}
+
+/*
 #footercontainer {
     display: flex;
     flex-direction: row;
@@ -296,10 +368,17 @@ li {
     padding-top: 2em;
     margin-top: -1em;
 }
+*/
 
+footer ul li img{
+    width: 2em;
+}
+
+/*
 .icoon {
     width: 2em;
 }
+*/
 
 
 /* Film pagina */
@@ -326,13 +405,14 @@ li {
     bottom: 3em
 }
 
+/*
 .verder {
     position: relative;
     left: 19.1em;
     background-color: black;
     color: #ffbb00;
 }
-
+*/
 
 
 .keuze {
@@ -343,8 +423,8 @@ li {
     color: black;
     font-weight: bold;
     list-style: none;
-
 }
+
 
 .keuzes {
     list-style: none;
@@ -352,17 +432,30 @@ li {
     margin-left: -2em
 }
 
-.deel2 {
+
+#deel2 {
     margin-top: 6em
 }
+
 
 .filmkiezen2 {
     width: 120px;
     padding: 5px;
     transition: 1s;
-
 }
 
+
+main section div ul:nth-of-type(1){
+        display: flex;
+    flex-direction: row;
+    margin-left: -2em;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 407px;
+    margin-top: -1.5em
+}
+
+/*
 .ditiseentest2 {
     display: flex;
     flex-direction: row;
@@ -372,7 +465,22 @@ li {
     width: 407px;
     margin-top: -1.5em
 }
+*/
 
+
+main section div ul li a p{
+        color: black;
+    font-family: avenir;
+    position: relative;
+    top: -1.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+/*
 .naamvandefilm {
     color: black;
     font-family: avenir;
@@ -384,7 +492,22 @@ li {
     font-size: 11px;
     font-weight: lighter;
 }
+*/
 
+
+main section div ul li a p:nth-of-type(2){
+      color: grey;
+    font-family: avenir;
+    position: relative;
+    top: -2.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+/*
 .datumvandefilm {
     color: grey;
     font-family: avenir;
@@ -396,6 +519,10 @@ li {
     font-size: 11px;
     font-weight: lighter;
 }
+*/
+
+
+
 
 /* Vierkant met menu */
 
@@ -414,6 +541,7 @@ li {
     animation: kleurtjes 20s infinite;
 }
 
+
 .vierkantinhoud {
     background-color: #ffbb00;
     margin: auto;
@@ -423,6 +551,7 @@ li {
     border-radius: 2em;
     box-shadow: 0px 8px 16px 3px white;
 }
+
 
 @keyframes kleurtjes {
     0% {
@@ -438,6 +567,7 @@ li {
     }
 }
 
+
 .kruisje {
     color: white;
     float: right;
@@ -452,7 +582,8 @@ li {
         0 0 0.9em white;
 }
 
-.kruisje:hover {
+
+span:hover {
     cursor: pointer;
 }
 
@@ -465,13 +596,14 @@ a {
     transition: 0.5s ease-in;
 }
 
+
 a:focus {
     background: #ffbb00;
 }
 
+
 a:hover {
     background-color: #ff4545;
-    ;
 }
 
 a:active {
@@ -490,6 +622,13 @@ div:nth-of-type(odd){
     animation-duration: 4s;
 }
 */
+/*
+main div div div:nth-of-type(odd){
+        font-size: 2em;
+    animation: draaien 1s infinite;
+    animation-duration: 4s;
+}
+*/
 
 .popcorn-twee {
     font-size: 2em;
@@ -503,9 +642,16 @@ div:nth-of-type(even){
 }
 */
 
+main div div div:nth-of-type(even){
+    font-size: 2em;
+}
+
+/*
 .haan {
     font-size: 2em;
 }
+*/
+
 
 @keyframes draaien {
     0 {
