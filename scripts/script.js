@@ -9,6 +9,8 @@ var button = document.getElementById("menubutton");
 // kruisje dat de vierkant laat verdwijnen
 var kruisje = document.getElementsByClassName("kruisje")[0];
 
+
+/*
 // wanneer op de button wordt gedrukt komt de vierkant tevoorschijn
 button.onclick = function() {
   vierkant.style.display = "block";
@@ -18,3 +20,29 @@ button.onclick = function() {
 kruisje.onclick = function() {
   vierkant.style.display = "none";
 }
+*/
+
+
+button.addEventListener("click", zien); 
+
+function zien(){
+    vierkant.classList.add = ("block");
+}
+
+kruisje.addEventListener("click", weg); 
+
+function weg(){
+    vierkant.classList.add = ("none");
+}
+
+        
+
+/*
+kruisje.addEventListener("click", function() {
+    vierkant.style.display = "none";
+}
+*/
+
+
+
+
