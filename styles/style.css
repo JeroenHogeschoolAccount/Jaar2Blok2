@@ -21,17 +21,27 @@ header {
     margin-bottom: -1.3em;
 }
 
-
-.nav_links {
+body header nav{
     list-style: none;
 }
 
+/*
+.nav_links {
+    list-style: none;
+}
+*/
 
+body header nav ul li{
+        display: inline-block;
+    padding: 0px 0px;
+}
+
+/*
 .nav_links li {
     display: inline-block;
     padding: 0px 0px;
 }
-
+*/
 
 .films {
     margin-bottom: -10em;
@@ -76,26 +86,27 @@ ul li img.logo {
     top: 0.7em;
 }
 
-
-section p:nth-of-type(1){
+/*
+main section p:nth-of-type(1){
     color: white;
-    font-family: arial;
     font-size: 13px;
     margin-left: 0.7em;
     line-height: 19.5px;
     max-width: 26em;
 }
+*/
+
 
 /*
-#eerste {
-    color: white;
+    color: red;
     font-family: arial;
     font-size: 13px;
     margin-left: 0.7em;
     line-height: 19.5px;
     max-width: 40em;
 }
-*/
+/*
+
 
 
 
@@ -128,6 +139,18 @@ main div ul li button:nth-of-type(1){
 }
 */
 
+/*
+main div ul{
+        display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1.1em;
+    list-style: none;
+    position: relative;
+    left: -1.1em;
+}
+*/
+
 .categorien {
     display: flex;
     justify-content: center;
@@ -154,9 +177,7 @@ main div nav ul li a img:nth-of-type(1){
     padding: 20px;
 }
 
-main section:nth-of-type(1) > p{
-    
-}
+
 
 /*
 .filmkiezen {
@@ -207,11 +228,13 @@ main section:nth-of-type(2){
 */
 
 
+
 .ondernieuws {
     background-color: #333332;
     padding-bottom: 2em;
     padding-top: -em;
 }
+
 
 
 #starsafbeelding {
@@ -293,10 +316,23 @@ main section h1:nth-of-type(1){
 }
 */
 
+/*
+main section:nth-of-type(1) > h2{
+        color: white;
+    font-family: arial;
+    font-size: 24px;
+    margin-left: 0.7em;
+    margin-bottom: 1.3em;
+    position: relative;
+    top: -17em;
+    margin-left: 0.8em
+}
+*/
+
+
 
 .imaxondertitel {
     color: white;
-    font-family: arial;
     font-size: 24px;
     margin-left: 0.7em;
     margin-bottom: 1.3em;
@@ -306,6 +342,38 @@ main section h1:nth-of-type(1){
 }
 
 
+
+main section:nth-of-type(3) > p{
+    font-size: 13px;
+    margin-left: 1.7em;
+    position: relative;
+    top: -27em;
+    max-width: 26em;
+    line-height: 1.4em;
+    color: white;
+}
+
+main section:nth-of-type(2) > p{
+    font-size: 13px;
+    margin-left: 0.9em;
+    position: relative;
+    top: -1em;
+    max-width: 26em;
+    line-height: 1.4em;
+    color: white;
+}
+
+main section:nth-of-type(1) > p{
+    font-size: 13px;
+    margin-left: 1.7em;
+    position: relative;
+    top: -27em;
+    max-width: 26em;
+    line-height: 1.4em;
+    color: white;
+}
+
+/*
 .imaxparagraaf {
     color: white;
     font-family: sans-serif;
@@ -316,7 +384,7 @@ main section h1:nth-of-type(1){
     max-width: 26em;
     line-height: 1.4em;
 }
-
+*/
 
 #imaxknop {
     text-transform: uppercase;
@@ -328,7 +396,6 @@ main section h1:nth-of-type(1){
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    font-family: sans-serif;
     letter-spacing: -0.05em;
     position: relative;
     left: 1.5em;
@@ -348,10 +415,8 @@ main section h1:nth-of-type(1){
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    font-family: sans-serif;
     letter-spacing: -0.05em;
     position: relative;
-    ;
     left: 1.5em;
     bottom: 27em;
     width: 11em;
@@ -364,7 +429,7 @@ main section h1:nth-of-type(1){
 /*footer*/
 
 footer ul{
-        display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
@@ -412,7 +477,6 @@ footer ul li img{
 .naamcarousel2 {
     font-size: 17px;
     text-transform: uppercase;
-    font-family: arial;
     padding-top: 1em;
     margin-left: 0.5em;
 }
@@ -437,7 +501,6 @@ footer ul li img{
 
 
 .keuze {
-    font-family: arial;
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 17px;
@@ -452,6 +515,7 @@ footer ul li img{
     margin-bottom: 2em;
     margin-left: -2em
 }
+
 
 
 #deel2 {
@@ -541,7 +605,6 @@ main section div ul li a p:nth-of-type(2){
     font-weight: lighter;
 }
 */
-
 
 
 
