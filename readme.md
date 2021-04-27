@@ -6,10 +6,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -Bron van logo website: https://www.pathe.nl-
+1. -Bron van logo website: https://www.pathe.nl -
 2. -Bron van afbeeldingen homepagina: https://www.pathe.nl -
-3. -Bron van afbeeldingen pagina "Films": https://www.pathe.nl/films-
-4. -Bron van hoe je een pop-up scherm kan maken: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal-
+3. -Bron van afbeeldingen pagina "Films": https://www.pathe.nl/films -
+4. -Bron van hoe je een pop-up scherm kan maken: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal -
 
 
 
